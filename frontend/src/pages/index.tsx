@@ -54,7 +54,7 @@ export default function Home() {
                                 type="number"
                                 name="Pregnancies"
                                 className="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-gray-500 focus:border-gray-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-                                placeholder="$23030"
+                                placeholder="Enter the no. of Pregnancies"
                                 onChange={(e) => {
                                     setFormData({
                                         ...formData,
@@ -80,7 +80,7 @@ export default function Home() {
                                 type="number"
                                 name="Glucose"
                                 className="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-gray-500 focus:border-gray-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-                                placeholder="7"
+                                placeholder="Enter Glucose"
                                 onChange={(e) => {
                                     setFormData({
                                         ...formData,
@@ -130,7 +130,7 @@ export default function Home() {
                                 type="number"
                                 name="BloodPressure"
                                 className="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-gray-500 focus:border-gray-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-                                placeholder="5"
+                                placeholder="Enter BP"
                                 onChange={(e) => {
                                     setFormData({
                                         ...formData,
@@ -156,7 +156,7 @@ export default function Home() {
                                 type="number"
                                 name="SkinThickness"
                                 className="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-gray-500 focus:border-gray-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-                                placeholder="3"
+                                placeholder="Enter Skin thickness"
                                 onChange={(e) => {
                                     setFormData({
                                         ...formData,
@@ -182,7 +182,7 @@ export default function Home() {
                                 type="number"
                                 name="Insulin"
                                 className="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-gray-500 focus:border-gray-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-                                placeholder="23030"
+                                placeholder="Enter Insulin"
                                 onChange={(e) => {
                                     setFormData({
                                         ...formData,
@@ -207,7 +207,7 @@ export default function Home() {
                                 type="number"
                                 name="BMI"
                                 className="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-gray-500 focus:border-gray-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-                                placeholder="23030"
+                                placeholder="Enter BMI"
                                 onChange={(e) => {
                                     setFormData({
                                         ...formData,
@@ -232,7 +232,7 @@ export default function Home() {
                                 type="number"
                                 name="DiabetesPedigreeFunction"
                                 className="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-gray-500 focus:border-gray-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-                                placeholder="23030"
+                                placeholder="Enter DPF"
                                 onChange={(e) => {
                                     setFormData({
                                         ...formData,
@@ -257,7 +257,7 @@ export default function Home() {
                                 type="number"
                                 name="Age"
                                 className="rounded-none rounded-r-lg bg-gray-50 border border-gray-300 text-gray-900 focus:ring-gray-500 focus:border-gray-500 block flex-1 min-w-0 w-full text-sm p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-                                placeholder="23030"
+                                placeholder="Enter Age"
                                 onChange={(e) => {
                                     setFormData({
                                         ...formData,
