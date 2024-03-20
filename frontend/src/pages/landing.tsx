@@ -1,11 +1,13 @@
 import React from 'react';
 
-const LandingPage = () => {
+import Navbar from "../components/Navbar";
+const Landing = () => {
     return (
-        <div>
-            {/* Your landing page content */}
+                <div>
+            <h1>hello</h1>
+
         </div>
     );
 };
 
-export default LandingPage;
+export default Landing;
