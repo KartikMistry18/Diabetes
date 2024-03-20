@@ -1,6 +1,16 @@
-import "@/styles/globals.css";
+import '@/styles/globals.css';
+import Header from '../../components/Navbar'; // Ensure correct casing and use default import
+
+import { ClerkProvider } from "@clerk/nextjs";
 import type { AppProps } from "next/app";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <ClerkProvider {...pageProps}>
+      <Header /> {/* Render the Header component */}
+      <Component {...pageProps} />
+    </ClerkProvider>
+  );
 }
+
+export default MyApp;
