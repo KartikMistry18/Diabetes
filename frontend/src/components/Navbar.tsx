@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link href="https://diabetesretinopathy.streamlit.app/" className="text-gray-300 hover:text-white mr-4">Diabetes Retinopathy</Link>
           )}
           {user && (
-            <Link href="https://diabfordocpred.streamlit.app/" className="text-gray-300 hover:text-white mr-4">Stats for doctors</Link>
+            <Link href="https://diabfordoc.streamlit.app/" className="text-gray-300 hover:text-white mr-4">Stats for doctors</Link>
           )}
         </div>
         <div>
