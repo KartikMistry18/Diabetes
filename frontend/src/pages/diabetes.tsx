@@ -42,7 +42,7 @@ export default function Home() {
                     <div className="max-w-[300px] w-full">
                         <label
                             htmlFor="website-admin"
-                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                         >
                            Pregnancies
                         </label>
@@ -68,7 +68,7 @@ export default function Home() {
                     <div className="max-w-[300px] w-full">
                         <label
                             htmlFor="website-admin"
-                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                         >
                             Glucose
                         </label>
@@ -94,7 +94,7 @@ export default function Home() {
                     <div className="max-w-[300px] w-full">
                         <label
                             htmlFor="website-admin"
-                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                         >
                             BloodPressure
                         </label>
@@ -144,7 +144,7 @@ export default function Home() {
                     <div className="max-w-[300px] w-full">
                         <label
                             htmlFor="website-admin"
-                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                         >
                             SkinThickness
                         </label>
@@ -170,7 +170,7 @@ export default function Home() {
                     <div className="max-w-[300px] w-full">
                         <label
                             htmlFor="website-admin"
-                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                         >
                             Insulin
                         </label>
@@ -195,7 +195,7 @@ export default function Home() {
                     <div className="max-w-[300px] w-full">
                         <label
                             htmlFor="website-admin"
-                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                         >
                             BMI
                         </label>
@@ -220,7 +220,7 @@ export default function Home() {
                     <div className="max-w-[300px] w-full">
                         <label
                             htmlFor="website-admin"
-                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                         >
                             DiabetesPedigreeFunction
                         </label>
@@ -245,7 +245,7 @@ export default function Home() {
                     <div className="max-w-[300px] w-full">
                         <label
                             htmlFor="website-admin"
-                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
                         >
                             Age
                         </label>
